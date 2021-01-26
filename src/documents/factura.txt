@@ -1,0 +1,6 @@
+Vendedor: User
+Coca Cola 1,5Lt PET12   1   3700   
+Pepsi 2Lt   1   3500   
+Margaritas limon 25g   1   1000   
+Snaky dulce   1   700   
+Total 8900   

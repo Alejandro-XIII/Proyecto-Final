@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VentasController">
+   <children>
+      <Button layoutX="353.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnGenerarFactura_action" text="Generar factura" />
+      <Button layoutX="232.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAgregarProducto_action" text="Agregar producto" />
+      <Button layoutX="118.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnRetirarProducto_action" text="Retirar producto" />
+      <Button layoutX="14.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnRegresar_action" text="Regresar" />
+      <TextField fx:id="txtCodigo" layoutX="302.0" layoutY="14.0" />
+      <TableView fx:id="tblProductos" layoutX="12.0" layoutY="50.0" prefHeight="262.0" prefWidth="439.0">
+        <columns>
+          <TableColumn fx:id="clmNombre" prefWidth="306.0" text="Nombre" />
+          <TableColumn fx:id="clmCantidad" prefWidth="70.0" text="Cantidad" />
+          <TableColumn fx:id="clmPrecio" prefWidth="67.0" text="Precio" />
+        </columns>
+      </TableView>
+      <Label layoutX="196.0" layoutY="18.0" text="Código de barras" />
+   </children>
+</AnchorPane>

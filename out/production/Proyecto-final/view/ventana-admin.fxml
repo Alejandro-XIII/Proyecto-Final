@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="265.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
+   <children>
+      <Button layoutX="29.0" layoutY="216.0" mnemonicParsing="false" onAction="#btnRegresar_action" text="Regresar" />
+      <Label layoutX="39.0" layoutY="35.0" text="Codigo de barras" />
+      <TextField fx:id="txtCodigoBarras" layoutX="164.0" layoutY="31.0" prefHeight="25.0" prefWidth="221.0" promptText="0000000000000" />
+      <Label layoutX="39.0" layoutY="78.0" text="Nombre" />
+      <Label layoutX="34.0" layoutY="123.0" text="Fecha de vencimiento" />
+      <Label layoutX="34.0" layoutY="177.0" text="Precio" />
+      <TextField fx:id="txtNombre" layoutX="164.0" layoutY="74.0" prefHeight="25.0" prefWidth="221.0" promptText="nombre del producto" />
+      <TextField fx:id="txtFechaVencimiento" layoutX="164.0" layoutY="119.0" prefHeight="25.0" prefWidth="221.0" promptText="AñoMesDia(00000000)" />
+      <TextField fx:id="txtPrecio" layoutX="164.0" layoutY="173.0" prefHeight="25.0" prefWidth="221.0" promptText="00000" />
+      <Button layoutX="322.0" layoutY="216.0" mnemonicParsing="false" onAction="#btnRegistrar_action" text="Registrar" />
+      <Button layoutX="234.0" layoutY="216.0" mnemonicParsing="false" onAction="#btnActualizar_action" text="Actualizar" />
+      <Button layoutX="164.0" layoutY="216.0" mnemonicParsing="false" onAction="#btnBorrar_action" text="Borrar" />
+   </children>
+</AnchorPane>
